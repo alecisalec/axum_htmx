@@ -7,7 +7,7 @@ use axum::{
 pub fn practice_routes() -> Router {
     Router::new()
         .route("/", get(hello))
-    // Add more user-related routes here as needed
+    // Add more routes here
 }
 
 async fn hello() -> String {
